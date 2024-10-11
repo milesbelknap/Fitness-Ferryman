@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28093E7426572476006B8B86 /* Meals+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28093E7226572475006B8B86 /* Meals+CoreDataClass.swift */; };
+		28093E7526572476006B8B86 /* Meals+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28093E7326572475006B8B86 /* Meals+CoreDataProperties.swift */; };
+		2829CF21263E20610088F283 /* Fitness.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2829CF1F263E20610088F283 /* Fitness.xcdatamodeld */; };
+		2829CF24263E20D60088F283 /* UserInfo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2829CF22263E20D60088F283 /* UserInfo+CoreDataClass.swift */; };
+		2829CF25263E20D60088F283 /* UserInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2829CF23263E20D60088F283 /* UserInfo+CoreDataProperties.swift */; };
+		28F652392634CC92002A5726 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F652382634CC92002A5726 /* AppDelegate.swift */; };
+		28F6523B2634CC92002A5726 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F6523A2634CC92002A5726 /* SceneDelegate.swift */; };
+		28F6523D2634CC92002A5726 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F6523C2634CC92002A5726 /* ViewController.swift */; };
+		28F652402634CC92002A5726 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F6523E2634CC92002A5726 /* Main.storyboard */; };
+		28F652422634CC93002A5726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F652412634CC93002A5726 /* Assets.xcassets */; };
+		28F652452634CC93002A5726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F652432634CC93002A5726 /* LaunchScreen.storyboard */; };
+		28F652502634CC94002A5726 /* Fitness_FerrymenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F6524F2634CC94002A5726 /* Fitness_FerrymenTests.swift */; };
+		28F6525B2634CC94002A5726 /* Fitness_FerrymenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F6525A2634CC94002A5726 /* Fitness_FerrymenUITests.swift */; };
+		28F652692635C750002A5726 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F652682635C750002A5726 /* MyTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28F6524C2634CC94002A5726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28F6522D2634CC92002A5726 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28F652342634CC92002A5726;
+			remoteInfo = "Fitness Ferrymen";
+		};
+		28F652572634CC94002A5726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28F6522D2634CC92002A5726 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28F652342634CC92002A5726;
+			remoteInfo = "Fitness Ferrymen";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28093E7226572475006B8B86 /* Meals+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Meals+CoreDataClass.swift"; sourceTree = "<group>"; };
+		28093E7326572475006B8B86 /* Meals+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Meals+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2829CF20263E20610088F283 /* Fitness.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fitness.xcdatamodel; sourceTree = "<group>"; };
+		2829CF22263E20D60088F283 /* UserInfo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserInfo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2829CF23263E20D60088F283 /* UserInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		28F652352634CC92002A5726 /* Fitness Ferrymen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fitness Ferrymen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F652382634CC92002A5726 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28F6523A2634CC92002A5726 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		28F6523C2634CC92002A5726 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28F6523F2634CC92002A5726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28F652412634CC93002A5726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28F652442634CC93002A5726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28F652462634CC93002A5726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F6524B2634CC94002A5726 /* Fitness FerrymenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fitness FerrymenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F6524F2634CC94002A5726 /* Fitness_FerrymenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_FerrymenTests.swift; sourceTree = "<group>"; };
+		28F652512634CC94002A5726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F652562634CC94002A5726 /* Fitness FerrymenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fitness FerrymenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F6525A2634CC94002A5726 /* Fitness_FerrymenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_FerrymenUITests.swift; sourceTree = "<group>"; };
+		28F6525C2634CC94002A5726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F652682635C750002A5726 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28F652322634CC92002A5726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F652482634CC94002A5726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F652532634CC94002A5726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28080BEF263A4C69000553F1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				28F652682635C750002A5726 /* MyTableViewController.swift */,
+				28F6523C2634CC92002A5726 /* ViewController.swift */,
+				2829CF1F263E20610088F283 /* Fitness.xcdatamodeld */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2829CF26263E20E30088F283 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				28093E7226572475006B8B86 /* Meals+CoreDataClass.swift */,
+				28093E7326572475006B8B86 /* Meals+CoreDataProperties.swift */,
+				2829CF22263E20D60088F283 /* UserInfo+CoreDataClass.swift */,
+				2829CF23263E20D60088F283 /* UserInfo+CoreDataProperties.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		28F6522C2634CC92002A5726 = {
+			isa = PBXGroup;
+			children = (
+				28F652372634CC92002A5726 /* Fitness Ferrymen */,
+				28F6524E2634CC94002A5726 /* Fitness FerrymenTests */,
+				28F652592634CC94002A5726 /* Fitness FerrymenUITests */,
+				28F652362634CC92002A5726 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28F652362634CC92002A5726 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28F652352634CC92002A5726 /* Fitness Ferrymen.app */,
+				28F6524B2634CC94002A5726 /* Fitness FerrymenTests.xctest */,
+				28F652562634CC94002A5726 /* Fitness FerrymenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28F652372634CC92002A5726 /* Fitness Ferrymen */ = {
+			isa = PBXGroup;
+			children = (
+				2829CF26263E20E30088F283 /* Data */,
+				28F652382634CC92002A5726 /* AppDelegate.swift */,
+				28F6523A2634CC92002A5726 /* SceneDelegate.swift */,
+				28080BEF263A4C69000553F1 /* ViewControllers */,
+				28F6523E2634CC92002A5726 /* Main.storyboard */,
+				28F652412634CC93002A5726 /* Assets.xcassets */,
+				28F652432634CC93002A5726 /* LaunchScreen.storyboard */,
+				28F652462634CC93002A5726 /* Info.plist */,
+			);
+			path = "Fitness Ferrymen";
+			sourceTree = "<group>";
+		};
+		28F6524E2634CC94002A5726 /* Fitness FerrymenTests */ = {
+			isa = PBXGroup;
+			children = (
+				28F6524F2634CC94002A5726 /* Fitness_FerrymenTests.swift */,
+				28F652512634CC94002A5726 /* Info.plist */,
+			);
+			path = "Fitness FerrymenTests";
+			sourceTree = "<group>";
+		};
+		28F652592634CC94002A5726 /* Fitness FerrymenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28F6525A2634CC94002A5726 /* Fitness_FerrymenUITests.swift */,
+				28F6525C2634CC94002A5726 /* Info.plist */,
+			);
+			path = "Fitness FerrymenUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28F652342634CC92002A5726 /* Fitness Ferrymen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28F6525F2634CC94002A5726 /* Build configuration list for PBXNativeTarget "Fitness Ferrymen" */;
+			buildPhases = (
+				28F652312634CC92002A5726 /* Sources */,
+				28F652322634CC92002A5726 /* Frameworks */,
+				28F652332634CC92002A5726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fitness Ferrymen";
+			productName = "Fitness Ferrymen";
+			productReference = 28F652352634CC92002A5726 /* Fitness Ferrymen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28F6524A2634CC94002A5726 /* Fitness FerrymenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28F652622634CC94002A5726 /* Build configuration list for PBXNativeTarget "Fitness FerrymenTests" */;
+			buildPhases = (
+				28F652472634CC94002A5726 /* Sources */,
+				28F652482634CC94002A5726 /* Frameworks */,
+				28F652492634CC94002A5726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28F6524D2634CC94002A5726 /* PBXTargetDependency */,
+			);
+			name = "Fitness FerrymenTests";
+			productName = "Fitness FerrymenTests";
+			productReference = 28F6524B2634CC94002A5726 /* Fitness FerrymenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28F652552634CC94002A5726 /* Fitness FerrymenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28F652652634CC94002A5726 /* Build configuration list for PBXNativeTarget "Fitness FerrymenUITests" */;
+			buildPhases = (
+				28F652522634CC94002A5726 /* Sources */,
+				28F652532634CC94002A5726 /* Frameworks */,
+				28F652542634CC94002A5726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28F652582634CC94002A5726 /* PBXTargetDependency */,
+			);
+			name = "Fitness FerrymenUITests";
+			productName = "Fitness FerrymenUITests";
+			productReference = 28F652562634CC94002A5726 /* Fitness FerrymenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28F6522D2634CC92002A5726 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Miles Belknap";
+				TargetAttributes = {
+					28F652342634CC92002A5726 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					28F6524A2634CC94002A5726 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 28F652342634CC92002A5726;
+					};
+					28F652552634CC94002A5726 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 28F652342634CC92002A5726;
+					};
+				};
+			};
+			buildConfigurationList = 28F652302634CC92002A5726 /* Build configuration list for PBXProject "Fitness Ferrymen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28F6522C2634CC92002A5726;
+			productRefGroup = 28F652362634CC92002A5726 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28F652342634CC92002A5726 /* Fitness Ferrymen */,
+				28F6524A2634CC94002A5726 /* Fitness FerrymenTests */,
+				28F652552634CC94002A5726 /* Fitness FerrymenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28F652332634CC92002A5726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F652452634CC93002A5726 /* LaunchScreen.storyboard in Resources */,
+				28F652422634CC93002A5726 /* Assets.xcassets in Resources */,
+				28F652402634CC92002A5726 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F652492634CC94002A5726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F652542634CC94002A5726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28F652312634CC92002A5726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F6523D2634CC92002A5726 /* ViewController.swift in Sources */,
+				2829CF21263E20610088F283 /* Fitness.xcdatamodeld in Sources */,
+				28093E7426572476006B8B86 /* Meals+CoreDataClass.swift in Sources */,
+				28093E7526572476006B8B86 /* Meals+CoreDataProperties.swift in Sources */,
+				2829CF25263E20D60088F283 /* UserInfo+CoreDataProperties.swift in Sources */,
+				2829CF24263E20D60088F283 /* UserInfo+CoreDataClass.swift in Sources */,
+				28F652392634CC92002A5726 /* AppDelegate.swift in Sources */,
+				28F6523B2634CC92002A5726 /* SceneDelegate.swift in Sources */,
+				28F652692635C750002A5726 /* MyTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F652472634CC94002A5726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F652502634CC94002A5726 /* Fitness_FerrymenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F652522634CC94002A5726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F6525B2634CC94002A5726 /* Fitness_FerrymenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28F6524D2634CC94002A5726 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28F652342634CC92002A5726 /* Fitness Ferrymen */;
+			targetProxy = 28F6524C2634CC94002A5726 /* PBXContainerItemProxy */;
+		};
+		28F652582634CC94002A5726 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28F652342634CC92002A5726 /* Fitness Ferrymen */;
+			targetProxy = 28F652572634CC94002A5726 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28F6523E2634CC92002A5726 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28F6523F2634CC92002A5726 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28F652432634CC93002A5726 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28F652442634CC93002A5726 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28F6525D2634CC94002A5726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28F6525E2634CC94002A5726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28F652602634CC94002A5726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fitness Ferrymen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Miles-Belknap.Fitness-Ferrymen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28F652612634CC94002A5726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fitness Ferrymen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Miles-Belknap.Fitness-Ferrymen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28F652632634CC94002A5726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fitness FerrymenTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Miles-Belknap.Fitness-FerrymenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitness Ferrymen.app/Fitness Ferrymen";
+			};
+			name = Debug;
+		};
+		28F652642634CC94002A5726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fitness FerrymenTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Miles-Belknap.Fitness-FerrymenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitness Ferrymen.app/Fitness Ferrymen";
+			};
+			name = Release;
+		};
+		28F652662634CC94002A5726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fitness FerrymenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Miles-Belknap.Fitness-FerrymenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fitness Ferrymen";
+			};
+			name = Debug;
+		};
+		28F652672634CC94002A5726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fitness FerrymenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Miles-Belknap.Fitness-FerrymenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fitness Ferrymen";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28F652302634CC92002A5726 /* Build configuration list for PBXProject "Fitness Ferrymen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F6525D2634CC94002A5726 /* Debug */,
+				28F6525E2634CC94002A5726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28F6525F2634CC94002A5726 /* Build configuration list for PBXNativeTarget "Fitness Ferrymen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F652602634CC94002A5726 /* Debug */,
+				28F652612634CC94002A5726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28F652622634CC94002A5726 /* Build configuration list for PBXNativeTarget "Fitness FerrymenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F652632634CC94002A5726 /* Debug */,
+				28F652642634CC94002A5726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28F652652634CC94002A5726 /* Build configuration list for PBXNativeTarget "Fitness FerrymenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F652662634CC94002A5726 /* Debug */,
+				28F652672634CC94002A5726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2829CF1F263E20610088F283 /* Fitness.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2829CF20263E20610088F283 /* Fitness.xcdatamodel */,
+			);
+			currentVersion = 2829CF20263E20610088F283 /* Fitness.xcdatamodel */;
+			path = Fitness.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 28F6522D2634CC92002A5726 /* Project object */;
+}
